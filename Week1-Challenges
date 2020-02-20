@@ -1,0 +1,31 @@
+//NIKITA KOENE
+public class ChallengeOne {
+
+    public Integer groupWorkInt;
+    public string  groupWorkstring;
+    public Account groupworkAccount;
+    
+    public void SetValues(){
+        groupWorkInt= 1;
+        groupWorkstring ='apple';
+        groupworkAccount= new Account();
+        
+        groupworkAccount.Name='class Account';
+        
+        
+            
+        
+            
+        
+        
+        
+       
+    }
+       
+  	  public void GetValues(){
+          system.debug(groupWorkInt);
+          system.debug(groupWorkstring);
+          system.debug(groupworkAccount);
+                       
+       }
+}
