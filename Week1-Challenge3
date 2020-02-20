@@ -1,0 +1,21 @@
+// Nikita 
+public class ChallengeThree {
+   
+	public Account myAccount;
+    
+    public void SetAccount(){
+        myAccount= new Account();
+        myAccount.Name= 'myAccount';
+        
+        myAccount.AnnualRevenue=100;
+        myAccount.Description='This is my Account';
+        
+      
+            
+            
+    }
+    
+    public void GetAccount(){
+        system.debug(myAccount);
+        
+    }
